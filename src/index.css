@@ -1,0 +1,179 @@
+*{ font-family: arial, sans-serif;
+    margin: 0;
+  }
+  body,
+  body > div {
+    height: 100vh;
+    width: 100vw;
+  }
+  #container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #container > div {
+    display: flex;
+  }
+
+  #main-section {
+    flex-grow: 1;
+  }
+
+  #main-section > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* NAV BAR */
+
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    color: black;
+    text-decoration: none;
+    padding: 2rem
+  }
+  .navHome {
+    color: black;
+    text-decoration: none;
+    padding: 2rem
+  }
+  .navHome:hover {
+    background-color: rgb(180, 180, 180);
+  }
+  .navbar:hover {
+    background-color: black;
+    color: hsl(0, 0%, 82%);
+  }
+
+  /* HOME + COLOR PAGES */
+  .home {
+    background-color: rgb(0, 0, 0);
+    color:  hsl(0, 0%, 82%);
+  }
+
+  .red {
+    background-color: #ff002b;
+    color: #800016;
+  }
+
+  .blue {
+    background-color: #0000ff;
+    color: #0066ff;
+  }
+
+  .yellow {
+    background-color: #ffff00;
+    color:#d4d400;
+  }
+
+  .orange {
+    background-color: hsl(39, 100%, 50%);
+    color: #ff3f00;
+  }
+
+  .green {
+    background-color: #008000;
+    color: #00aa00;
+  }
+
+  .purple {
+    background-color: #800080;
+    color: #2b002b;
+  }
+
+  /* FOOTER */
+  #footer {
+    justify-content: center;
+  }
+  .footer {
+    color: black;
+    padding: 2rem;
+    text-decoration: none;
+  }
+  .footer:hover{
+    background-color: black;
+    color:  hsl(0, 0%, 82%);
+  }
+
+  /* PRIMARIES */
+
+  .primaries > .yellow {
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+  .primaries > .yellow:hover {
+    background-color: #d4d400 ;
+    color: #ffff00;
+  }
+  .primaries > .blue {
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+  .primaries > .blue:hover {
+    background-color: #0066ff ;
+    color:#0000ff;
+  }
+
+  .primaries > .red {
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+  .primaries > .red:hover {
+    background-color: #800016 ;
+    color:#ff002b;
+  }
+
+  /* SECONDARIES */
+
+  .secondaries > .orange { 
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+  .secondaries > .orange:hover {
+    background-color: #ff3f00;
+    color: hsl(39, 100%, 50%);
+ }
+  .secondaries > .green { 
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+  .secondaries > .green:hover {
+    background-color: #00aa00;
+    color:#008000;
+ }
+  .secondaries > .purple { 
+    text-decoration: none;
+    height: 180px;
+    width: 210px;
+    justify-content: center;
+    align-content: center;
+  }
+
+ .secondaries > .purple:hover {
+    background-color:  #2b002b;
+    color: #800080;
+ }
+
+ 
